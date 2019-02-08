@@ -3,12 +3,12 @@ package com.course;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class Controller {
+import static com.course.View.ENTER_TEXT;
+import static com.course.View.ERROR_MESSAGE;
+import static com.course.View.HELLO;
+import static com.course.View.WORLD;
 
-    private static final String ENTER_TEXT = "Enter please: ";
-    private static final String HELLO = "Hello";
-    private static final String WORLD = "world!";
-    private static final String ERROR_MESSAGE = "Please enter: 'Hello' or 'world!'";
+public class Controller {
 
     private Model model;
     private View view;
